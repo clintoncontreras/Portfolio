@@ -14,6 +14,7 @@
 <!--STYLES-->
 <link rel="stylesheet" href="jquery-ui-1.11.4.custom/jquery-ui.min.css" />
 <link rel="stylesheet" type="text/css" href="styles.css" />
+<link rel="stylesheet" type="text/css" href="animate.css" />
 <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 
 <!--IMAGES-->
@@ -46,7 +47,7 @@
         	<div class="headerHomeLinkSection">
             	<a>
                     <div class="headerIconBackgroundCont">
-                        <img class="shake" src="images/header/onlinestore.png" />
+                        <img class="animated rubberBand" src="images/header/onlinestore.png" />
                     </div>
                     <h1>Clinton Contreras</h1>
                     <h2> Front End Developer</h2>
@@ -68,15 +69,15 @@
         <div class="responsiveContainer" style="background-color:rgba(255,255,255,0.95);">
         	<div class="cycle-slideshow" data-cycle-fx="fadeout" data-cycle-pause-on-hover="true" data-cycle-timeout=7000 data-cycle-pager=".pager" data-cycle-slides="> div">
                    <div>
-                       <img src="images/homepage/carousel/chess.png" />
+                       <img src="images/homepage/carousel/chess.png" srcset="images/homepage/carousel/chess320.png 640w, images/homepage/carousel/chess640.png 700w" alt="previous projects" />
                        <div class="cycle-overlay1"><p>Check Out My Previous Projects</p></div>
                    </div>
                    <div>
-                       <img src="images/homepage/carousel/skills.png" />
+                       <img src="images/homepage/carousel/skills.png" srcset="images/homepage/carousel/skills320.png 640w, images/homepage/carousel/skills640.png 800w" alt="skills" />
                        <div class="cycle-overlay2"><p>See Examples of Skills Used</p></div>
                    </div>
                    <div>
-                       <img src="images/homepage/carousel/testimonials.png" />
+                       <img src="images/homepage/carousel/testimonials.png" srcset="images/homepage/carousel/testimonials320.png 640w, images/homepage/carousel/testimonials640.png 713w" alt="testimonials" />
                        <div class="cycle-overlay3"><p>Hear What Clients Have To Say</p></div>
                    </div>
             </div>
@@ -87,11 +88,31 @@
     <div class="mainNavigationSection">
     	<div class="responsiveContainer" style="background-color:rgba(255,255,255,0.95);">
         	<h3>Portfolio</h3>
-            <div class="navigationTab"></div>
-            <div class="navigationTab"></div>
-            <div class="navigationTab"></div>
-            <div class="navigationTab"></div>
-            <div class="navigationTab"></div>
+            <div class="navigationTab">
+            	<div class="navigationIcon" style="background-image:url(images/homepage/categories/projectbackground.png);"> 
+                	<img style="margin-left: 8px; margin-top: 15px;" class="shake" src="images/homepage/categories/projects.png" alt="previous projects"/>
+                </div>
+            </div>
+            <div class="navigationTab">
+            	<div class="navigationIcon" style="background-color:#313131;">
+                	<img style="margin-left: 10px; margin-top: 65px;" class="shake" src="images/homepage/categories/skills.png" alt="skills" />
+                </div>
+            </div>
+            <div class="navigationTab">
+            	<div class="navigationIcon">
+                	<img style="margin-left: 35px; margin-top: 10px;" class="shake" src="images/homepage/categories/testimonials.png" alt="testimonials" />
+                </div>
+            </div>
+            <div class="navigationTab">
+            	<div class="navigationIcon">
+                	<img style="margin-left: 10px; margin-top: 10px;" class="shake" src="images/homepage/categories/history.png" alt="history" />
+                </div>
+            </div>
+            <div class="navigationTab">
+            	<div class="navigationIcon" style="background-color:#33363B;">
+                	<img style="margin-left: 30px; margin-top: 32px;" class="shake" src="images/homepage/categories/References.png" alt="references" />
+                </div>
+            </div>
         </div>
     </div>
     <div class="footerSection">
