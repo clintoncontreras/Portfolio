@@ -216,6 +216,13 @@ li{
 }
 .navigationTab:last-child{
 }
+.navigationTab p{
+	font-size: 20px;
+    text-align: center;
+}
+.navigationTab p:first-of-type{
+	font-weight: bold;
+}
 
 
 /*SHAKE ANIMATION EFFECT*/
@@ -332,6 +339,9 @@ li{
 }
 .headerHomeLinkSection{
 }
+.mainNavigationSection{
+	height:1900px;
+}
 .mainNavigationSection div.responsiveContainer{
 	width:320px;
 }
@@ -382,17 +392,28 @@ li{
 }
 .navigationTab{
 	width:310px;
+	height: 330px;
 }
+.navigationTab p:last-of-type{
+	display: none;
 }
 @media screen and (min-width: 480px) { 
 .responsiveContainer{
 	width:480px;
 }
+.mainNavigationSection{
+	height:1870px;
+}
 .mainNavigationSection div.responsiveContainer{
 	width:470px;
 }
+.mainNavigationSection h3{
+}
 .headerSection{
 	height:160px;
+}
+.headerTopNavSection{
+	height: 84px;
 }
 .headerTopNavSection ul li{
 	margin-right: 0;
@@ -422,11 +443,14 @@ li{
 }
 .navigationTab{
 	width:450px;
+	height: 320px;
 }
 .mainNavigationSection div.responsiveContainer{
 	padding-left: 10px;
 }
-
+.navigationTab p:last-of-type{
+	display:block;
+}
 }
 @media screen and (min-width: 640px) { 
 .responsiveContainer{
