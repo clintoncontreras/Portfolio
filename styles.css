@@ -117,7 +117,8 @@ li{
 /*FOOTER*/
 .footerSection{
 	background-color: #222;
-	height:430px;
+	padding-bottom: 30px;
+    padding-top: 50px;
 }
 .footerLeftSection{
 	float: left;
@@ -426,9 +427,11 @@ li{
 /*RESPONSIVE MEDIA QUERIES*/
 
 @media screen and (min-width: 20px) { 
+/*GENERAL/TEMPLATE STYLES*/
 .responsiveContainer{
 	width:320px;
 }
+/*HEADER*/
 .headerHomeLinkSection{
 }
 .mainNavigationSection{
@@ -482,6 +485,17 @@ li{
 	padding-left:0;
 	
 }
+/*FOOTER*/
+.footerLeftSection{
+	width: 81%;
+}
+.footerCenterSection{
+	width: 81%;
+}
+.footerRightSection{
+	width: 81%;
+}
+/*HOMEPAGE*/
 .navigationTab{
 	width:310px;
 	height: 330px;
@@ -492,10 +506,13 @@ li{
 .mainNavigationSection div.ui-state-default{
 	margin-right: 95px;
 }
+
 @media screen and (min-width: 480px) { 
+/*GENERAL/TEMPLATE STYLES*/
 .responsiveContainer{
 	width:480px;
 }
+/*HEADER*/
 .mainNavigationSection{
 	height:1870px;
 }
@@ -536,6 +553,8 @@ li{
 	height: 73px;
     margin-left: 45px;
 }
+/*FOOTER*/
+/*HOMEPAGE*/
 .navigationTab{
 	width:450px;
 	height: 320px;
@@ -551,9 +570,11 @@ li{
 }
 }
 @media screen and (min-width: 640px) { 
+/*GENERAL/TEMPLATE STYLES*/
 .responsiveContainer{
 	width:600px;
 }
+/*HEADER*/
 .mainNavigationSection div.responsiveContainer{
 	width:590px;
 }
@@ -592,14 +613,18 @@ li{
 	width: 160px;
 	margin-left:10px;
 }
+/*FOOTER*/
+/*HOMEPAGE*/
 .navigationTab{
 	width:570px;
 }
 }
 @media screen and (min-width: 800px) { 
+/*GENERAL/TEMPLATE STYLES*/
 .responsiveContainer{
 	width:800px;
 }
+/*HEADER*/
 .mainNavigationSection div.responsiveContainer{
 	width:790px;
 }
@@ -627,14 +652,27 @@ li{
 .headerHomeLinkSection{
 	width: 210px;
 }
+/*FOOTER*/
+.footerLeftSection{
+	width: 25%;
+}
+.footerCenterSection{
+	width: 25%;
+}
+.footerRightSection{
+	width: 25%;
+}
+/*HOMEPAGE*/
 .navigationTab{
 	width:770px;
 }
 }
 @media screen and (min-width: 1024px) { 
+/*GENERAL/TEMPLATE STYLES*/
 .responsiveContainer{
 	width: 1024px; 
 }
+/*HEADER*/
 .mainNavigationSection div.responsiveContainer{
 	width:1014px;
 }
@@ -662,14 +700,27 @@ li{
 	padding-left: 15px;
     padding-right: 15px;
 }
+/*FOOTER*/
+.footerLeftSection{
+	width: 27%;
+}
+.footerCenterSection{
+	width: 28%;
+}
+.footerRightSection{
+	width: 27%;
+}
+/*HOMEPAGE*/
 .navigationTab{
 	width:994px;
 }
 }
 @media screen and (min-width: 1280px) {
+	/*GENERAL/TEMPLATE STYLES*/
 .responsiveContainer{
 	width: 1280px; 
 }
+/*HEADER*/
 .mainNavigationSection div.responsiveContainer{
 	width:1270px;
 }
@@ -697,6 +748,17 @@ li{
 	padding-left: 15px;
     padding-right: 15px;
 }
+/*FOOTER*/
+.footerLeftSection{
+	width: 28%;
+}
+.footerCenterSection{
+	width: 29%;
+}
+.footerRightSection{
+	width: 28%;
+}
+/*HOMEPAGE*/
 .navigationTab{
 	width:1250px;
 }
