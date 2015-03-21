@@ -17,6 +17,7 @@ li{
 .backgroundContainer{
 	width:100%;
 	/*background-image:url(images/homepage/codeBackground.jpg);*/
+	background-color: #bbbbbb;
 	background-color: #b8ec79;
 }
 .responsiveContainer{
@@ -25,6 +26,9 @@ li{
     margin-right: auto;
     width: 1240px;
 	position: relative;
+}
+.uppercase{
+	text-transform:uppercase;
 }
 
 /*HEADER*/
@@ -115,6 +119,76 @@ li{
 	background-color: #222;
 	height:430px;
 }
+.footerLeftSection{
+	float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    width: 28%;
+}
+.footerLeftSection img{
+}
+.footerLeftSection p{
+	color: white;
+	text-align: left;
+}
+.footerCenterSection{
+	float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    width: 29%;
+}
+.footerCenterSection div{
+	float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+.footerCenterSection p{
+	color: white;
+	text-align: left;
+}
+.footerCenterSection img{
+	float: left;
+	margin-right: 15px;
+}
+.footerCenterSection a{
+	color:#b8ec79;
+	text-decoration:none;
+}
+.footerRightSection{
+	float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    width: 28%;
+}
+.footerRightSection div{
+}
+.footerRightSection a{
+	clear: left;
+    color: white;
+    cursor: pointer;
+    float: left;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+.footerCreditsSection{
+	clear: left;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+}
+.footerCreditsSection a{
+	color: #b8ec79;
+    text-decoration: none;
+}
+.footerCreditsSection a:hover{
+	color:#b8ec79;
+}
 
 
 /*HOMEPAGE*/
@@ -196,6 +270,24 @@ li{
     font-weight: 900;
     text-align: left;
     text-transform: uppercase;
+}
+
+.mainNavigationSection div.ui-state-default{
+	float: right;
+    margin-right: 50px;
+    width: 127px;
+	cursor:pointer;
+	position: relative;
+	height: 16px;
+}
+.mainNavigationSection span.back-to-top{
+	clear: none;
+    display: block;
+    float: left;
+    line-height: 14px;
+    margin-left: 5px;
+	text-transform: uppercase;
+	margin-left: 10px;
 }
 .navigationTab{
 	border-bottom: 4px double grey;
@@ -340,7 +432,7 @@ li{
 .headerHomeLinkSection{
 }
 .mainNavigationSection{
-	height:1900px;
+	height:1920px;
 }
 .mainNavigationSection div.responsiveContainer{
 	width:320px;
@@ -397,6 +489,9 @@ li{
 .navigationTab p:last-of-type{
 	display: none;
 }
+.mainNavigationSection div.ui-state-default{
+	margin-right: 95px;
+}
 @media screen and (min-width: 480px) { 
 .responsiveContainer{
 	width:480px;
@@ -450,6 +545,9 @@ li{
 }
 .navigationTab p:last-of-type{
 	display:block;
+}
+.mainNavigationSection div.ui-state-default{
+	margin-right:50px;
 }
 }
 @media screen and (min-width: 640px) { 
