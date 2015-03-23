@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Portfolio of Clinton Contreras</title>
+<!-- TemplateEndEditable -->
+
+<!-- TemplateBeginEditable name="head" -->
+<!--SCRIPTS-->
+<script src="../jquery-2.1.3.min.js"></script>
+<script src="../jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
+<script src="../jquery-ui-1.11.4.custom/jquery-ui.min.js"></script>
+<script src="../cycle2.js"></script>
+<script src="../functions.js"></script>
+
+
+<!--STYLES-->
+<link rel="stylesheet" href="../jquery-ui-1.11.4.custom/jquery-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="../styles.css" />
+<link rel="stylesheet" type="text/css" href="../animate.css" />
+<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+
+<!--IMAGES-->
+<link rel="apple-touch-icon" sizes="57x57" href="../images/favicon/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="../images/favicon/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../images/favicon/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../images/favicon/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../images/favicon/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../images/favicon/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="../images/favicon/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../images/favicon/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="../images/favicon/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="../images/favicon/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div class="backgroundContainer">
+	<div class="headerSection">
+    	<div class="responsiveContainer">
+        	<div class="headerHomeLinkSection">
+            	<a>
+                    <div class="headerIconBackgroundCont">
+                        <a href="../index.html"><img class="animated rubberBand" src="../images/header/onlinestore.png" /></a>
+                    </div>
+                    <h1>Clinton Contreras</h1>
+                    <h2> Front End Developer</h2>
+                </a>
+            </div>
+            <div class="headerTopNavSection">
+            	<ul>
+                	<li><a href="../history.html">History</a></li>
+                    <li><a>Skills</a></li>
+                    <li><a>Projects</a></li>
+                    <li><a>Testimonials</a></li>
+                    <li><a>References</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--
+    <div class="featuredSection">
+        <div class="responsiveContainer" style="background-color:rgba(255,255,255,0.95);">
+        	<div class="cycle-slideshow" data-cycle-fx="fadeout" data-cycle-pause-on-hover="true" data-cycle-timeout=7000 data-cycle-pager=".pager" data-cycle-slides="> div">
+                   <div>
+                       <img src="images/homepage/carousel/chess.png" srcset="images/homepage/carousel/chess320.png 640w, images/homepage/carousel/chess640.png 700w" alt="previous projects" />
+                       <div class="cycle-overlay1"><p>Check Out My Previous Projects</p></div>
+                   </div>
+                   <div>
+                       <img src="images/homepage/carousel/skills.png" srcset="images/homepage/carousel/skills320.png 640w, images/homepage/carousel/skills640.png 800w" alt="skills" />
+                       <div class="cycle-overlay2"><p>See Examples of Skills Used</p></div>
+                   </div>
+                   <div>
+                       <img src="images/homepage/carousel/testimonials.png" srcset="images/homepage/carousel/testimonials320.png 640w, images/homepage/carousel/testimonials640.png 713w" alt="testimonials" />
+                       <div class="cycle-overlay3"><p>Hear What Clients Have To Say</p></div>
+                   </div>
+            </div>
+            <div class="pager"></div>
+        </div>
+    </div>
+    -->
+    <!-- TemplateBeginEditable name="mainContent" --><div class="mainNavigationSection">
+    </div><!-- TemplateEndEditable -->
+    <div class="footerSection">
+    	<div class="responsiveContainer">
+            <div class="footerLeftSection">
+                <div>
+                	<img />
+                </div>
+                <p>A graduate in computer information systems, Clinton combines his education with 2 years professional experience CSS3, HTML5, Javascript, Jquery, and various other web technologies to produce functional and responsively sound next generation single page appsites.</p>
+            </div>
+            <div class="footerCenterSection">
+                <div>
+                    <a target="_blank" href="https://github.com/clintoncontreras"><img src="../images/footer/GitHub.png" /></a>
+                    <p>View <a target="_blank" href="https://github.com/clintoncontreras">clintoncontreras</a> on github to see specific contributions and previous project source code.</p>
+                </div>
+                <div>
+                    <a target="_blank" href="https://www.linkedin.com/pub/clinton-contreras/57/25a/6ab"><img src="../images/footer/linkedin1.png" /></a>
+                    <p>Follow <a target="_blank" href="https://www.linkedin.com/pub/clinton-contreras/57/25a/6ab">Clinton Contreras</a> on LinkedIn.</p>
+                </div>
+                <div>
+                	<p>If you are interested in contacting Clinton, feel free to contact him through the following methods:</p><br>
+
+                    <p>email: <a target="_blank" href="mailto:clinton.contreras@yahoo.com">clinton.contreras@yahoo.com</a></p>
+                    <p>phone: (951)213-1008</p>
+                </div>
+            </div>
+            <div class="footerRightSection">
+            	<div><a class="uppercase" href="../history.html">History</a></div>
+                <div><a class="uppercase">Skills</a></div>
+                <div><a class="uppercase">Projects</a></div>
+                <div><a class="uppercase">Testimonials</a></div>
+                <div><a class="uppercase">References</a></div>
+            </div>
+            <div class="footerCreditsSection">
+                <div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
+            </div>
+    	</div>
+    </div>
+</div>
+</body>
+</html>

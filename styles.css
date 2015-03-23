@@ -5,6 +5,10 @@ body{
 a, p, h1, h2, h3, h4, h5{
 	font-family: "Lato",sans-serif;
 	margin:0;
+	color: #555555;
+}
+a{
+	text-decoration:none;
 }
 ul{
 	margin: 0;
@@ -105,6 +109,7 @@ li{
     text-align: center;
     text-transform: uppercase;
     width: 100%;
+	text-decoration:none;
 }
 .headerTopNavSection ul li:last-child{
     margin-right: 30px;
@@ -259,7 +264,7 @@ li{
 	color:#96f226;
 }
 
-.mainNavigationSection{
+.mainNavigationSectionHome{
 	height: 1870px;
 }
 .mainNavigationSection div.responsiveContainer{
@@ -315,6 +320,41 @@ li{
 }
 .navigationTab p:first-of-type{
 	font-weight: bold;
+}
+
+
+
+/*HISTORY*/
+.responsiveContainerHome h4{
+	margin-top: 20px;
+    padding-right: 10px;
+	margin-bottom: 20px;
+}
+.mainNavigationSectionHistory{
+	height: 1666px;
+}
+.historyWorkTab{
+	border-bottom: 4px double grey;
+    clear: both;
+    float: left;
+    height: 320px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+	width: 1250px;
+}
+.historyWorkTab p:first-child{
+	border-bottom: 4px double grey;
+}
+.historyWorkTab p span{
+}
+.historyWorkSection{
+	float: left;
+    width: 100%;
+}
+.historyEducationSection{
+	float: left;
+    width: 100%;
 }
 
 
@@ -434,7 +474,7 @@ li{
 /*HEADER*/
 .headerHomeLinkSection{
 }
-.mainNavigationSection{
+.mainNavigationSectionHome{
 	height:1920px;
 }
 .mainNavigationSection div.responsiveContainer{
@@ -513,7 +553,7 @@ li{
 	width:480px;
 }
 /*HEADER*/
-.mainNavigationSection{
+.mainNavigationSectionHome{
 	height:1870px;
 }
 .mainNavigationSection div.responsiveContainer{
@@ -761,5 +801,8 @@ li{
 /*HOMEPAGE*/
 .navigationTab{
 	width:1250px;
+}
+/*HISTORY*/
+.mainNavigationSectionHistory{
 }
 }
