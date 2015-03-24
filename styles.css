@@ -35,6 +35,25 @@ li{
 	text-transform:uppercase;
 }
 
+.floatLeft{
+	float:left;
+}
+.floatRight{
+	float:right;
+}
+.clearAll{
+	clear:both;
+}
+.fontBold{
+	font-weight:bold;
+}
+.doubleLineBorder{
+	border-bottom: 4px double grey;
+}
+fullWidth{
+	width:100%;
+}
+
 /*HEADER*/
 
 .headerSection{
@@ -331,13 +350,11 @@ li{
 	margin-bottom: 20px;
 }
 .mainNavigationSectionHistory{
-	height: 1666px;
+	height: 2599px;
 }
 .historyWorkTab{
-	border-bottom: 4px double grey;
     clear: both;
     float: left;
-    height: 320px;
     margin-bottom: 20px;
     padding-bottom: 20px;
     padding-right: 10px;
@@ -345,16 +362,36 @@ li{
 }
 .historyWorkTab p:first-child{
 	border-bottom: 4px double grey;
+	display: block;
+	margin-bottom:10px;
 }
-.historyWorkTab p span{
+.historyWorkTab div p:first-child{
+	border:none;
+}
+.historyWorkTab div{
+	float: left;
+}
+.historyWorkTab p:nth-child(2){
+	float: left;
+}
+.historyWorkTab p:nth-child(3){
+	margin-bottom:10px;
+}
+.historyWorkTab img{
+	margin-left: 20px;
 }
 .historyWorkSection{
 	float: left;
     width: 100%;
 }
 .historyEducationSection{
-	float: left;
-    width: 100%;
+	clear: both;
+    float: left;
+    height: 375px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+	width: 1250px;
 }
 
 
@@ -546,7 +583,53 @@ li{
 .mainNavigationSection div.ui-state-default{
 	margin-right: 95px;
 }
+/*HISTORY*/
+.mainNavigationSectionHistory{
+	height: 4732px;
+}
+.historyWorkTab{
+	width: 320px;
+	padding-right:0;
+	text-align: center;
+}
+.historyWorkTab div{
+	margin-bottom: 20px;
+    width: 100%;
+}
+.historyWorkTab img{
+	display:none;
+}
+.historyWorkTab p:nth-child(2) {
+	text-align:center;
+	width: 100%;
+}
+.historyWorkTab p:nth-child(3){
+	padding-left: 5px;
+    padding-right: 5px;
+	text-align: left;
 
+}
+.historyWorkTab p:nth-child(4) {
+	margin-left: 5px;
+    margin-right: 5px;
+    text-align: left;
+}
+.historyEducationSection{
+	height: 740px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 310px;
+}
+.historyEducationSection img{
+	display:none;
+}
+.historyEducationSection div{
+	margin-bottom:20px;
+	text-align:center;
+}
+.historyEducationSection p:nth-child(4){
+}
+}
 @media screen and (min-width: 480px) { 
 /*GENERAL/TEMPLATE STYLES*/
 .responsiveContainer{
@@ -608,6 +691,42 @@ li{
 .mainNavigationSection div.ui-state-default{
 	margin-right:50px;
 }
+/*HISTORY*/
+.mainNavigationSectionHistory{
+	height: 3659px;
+}
+.historyWorkTab div{
+	margin-bottom: 0;
+    width: auto;
+}
+.historyWorkTab img{
+	display:block;
+}
+.historyWorkTab p:nth-child(2) {
+	text-align:left;
+}
+.historyWorkTab p:nth-child(3){
+	padding-left: 0;
+    padding-right: 0;
+}
+.historyWorkTab p:nth-child(4) {
+	margin-left: 0;
+    margin-right: 0;
+}
+.historyWorkTab{
+	width: 460px;
+	padding-right:10px;
+	text-align: left;
+}
+.historyEducationSection{
+	width: 460px;
+	height: 555px;
+	padding-right: 10px;
+	padding-left:0;
+}
+.historyEducationSection div{
+	text-align:left;
+}
 }
 @media screen and (min-width: 640px) { 
 /*GENERAL/TEMPLATE STYLES*/
@@ -658,6 +777,17 @@ li{
 .navigationTab{
 	width:570px;
 }
+/*HISTORY*/
+.mainNavigationSectionHistory{
+	height: 3126px;
+}
+.historyWorkTab{
+	width: 580px;
+}
+.historyEducationSection{
+	width: 580px;
+	height: 472px;
+}
 }
 @media screen and (min-width: 800px) { 
 /*GENERAL/TEMPLATE STYLES*/
@@ -706,6 +836,17 @@ li{
 .navigationTab{
 	width:770px;
 }
+/*HISTORY*/
+.mainNavigationSectionHistory{
+	height: 2609px;
+}
+.historyWorkTab{
+	width: 780px;
+}
+.historyEducationSection{
+	width: 780px;
+	height: 375px;
+}
 }
 @media screen and (min-width: 1024px) { 
 /*GENERAL/TEMPLATE STYLES*/
@@ -753,6 +894,23 @@ li{
 /*HOMEPAGE*/
 .navigationTab{
 	width:994px;
+}
+/*HISTORY*/
+.mainNavigationSectionHistory{
+	height: 2378px;
+}
+.historyEducationSection img{
+	display:block;
+}
+.historyEducationSection div{
+	margin-bottom:0;
+}
+.historyWorkTab{
+	width: 1004px;
+}
+.historyEducationSection{
+	height: 404px;
+    width: 1004px;
 }
 }
 @media screen and (min-width: 1280px) {
@@ -803,6 +961,14 @@ li{
 	width:1250px;
 }
 /*HISTORY*/
-.mainNavigationSectionHistory{
+.mainNavigationSectionHistory {
+    height: 2169px;
+}
+.historyWorkTab{
+	width: 1260px;
+}
+.historyEducationSection{
+	width: 1260px;
+	height: 375px;
 }
 }
