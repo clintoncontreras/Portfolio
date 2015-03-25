@@ -9,6 +9,7 @@ $(document).ready(function() {
 		} 
 	});
 	
+	//BACK TO TOP BUTTON LINK ANIMATION
 	$('.mainNavigationSection div.ui-state-default').on({
 		mouseenter: function () {
 			$(".mainNavigationSection span.back-to-top").animate({color:'#9fda58'},500);
@@ -17,6 +18,8 @@ $(document).ready(function() {
 			$(".mainNavigationSection span.back-to-top").animate({color:'#b8ec79'},500);
 		} 
 	});
+	
+	//FOOTER LINK TEXT COLOR ANIMATION
 	$('.footerRightSection a').on({
 		mouseenter: function () {
 			$(this).animate({color:'#b8ec79'},500);
@@ -42,4 +45,6 @@ $(document).ready(function() {
 		} 
 	});
 	
+	//ACCORDIAN FUNCTION
+	$( ".accordion" ).accordion();
 });
