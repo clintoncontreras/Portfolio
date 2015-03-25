@@ -291,6 +291,9 @@ fullWidth{
 .mainNavigationSectionHome{
 	height: 1870px;
 }
+.mainNavigationSectionHome h3{
+	margin-left: 10px;
+}
 .mainNavigationSection div.responsiveContainer{
 	padding-left: 10px;
     width: 1230px;
@@ -325,8 +328,8 @@ fullWidth{
     height: 320px;
     margin-bottom: 20px;
     padding-bottom: 20px;
-    padding-right: 10px;
-    width: 1250px;
+    width: 1230px;
+	margin-left: 10px;
 }
 .navigationTab div.navigationIcon{
     float: left;
@@ -587,6 +590,9 @@ fullWidth{
 }
 .mainNavigationSection div.ui-state-default{
 }
+.navigationTab{
+	margin-left:0;
+}
 /*HISTORY*/
 .mainNavigationSectionHistory{
 	/*height: 3081px;*/
@@ -664,8 +670,8 @@ fullWidth{
 	margin-right: 0;
 }
 .headerTopNavSection ul li:last-child a{
-	padding-left: 6px;
-    padding-right: 7px;
+	padding-left: 5px;
+    padding-right: 5px;
 }
 .headerHomeLinkSection h1{
 	font-size: 1.1em;
@@ -684,6 +690,7 @@ fullWidth{
 .navigationTab{
 	width:450px;
 	height: 320px;
+	margin-left:10px;
 }
 .mainNavigationSection div.responsiveContainer{
 }
@@ -756,8 +763,8 @@ fullWidth{
 	margin-right: 14px;
 }
 .headerTopNavSection ul li:last-child a{
-	padding-left: 6px;
-    padding-right: 6px;
+	padding-left: 5px;
+    padding-right: 5px;
 }
 .headerIconBackgroundCont{
 	display:none;
@@ -815,8 +822,8 @@ fullWidth{
 	margin-right: 5px;
 }
 .headerTopNavSection ul li:last-child a{
-	padding-left: 8px;
-    padding-right: 7px;
+	padding-left: 7px;
+    padding-right: 6px;
 }
 .headerHomeLinkSection{
 	width: 210px;
@@ -876,8 +883,8 @@ fullWidth{
     margin-right: 30px;
 }
 .headerTopNavSection ul li:last-child a{
-	padding-left: 15px;
-    padding-right: 15px;
+	padding-left: 14px;
+    padding-right: 14px;
 }
 /*FOOTER*/
 .footerLeftSection{
@@ -940,8 +947,8 @@ fullWidth{
     margin-right: 30px;
 }
 .headerTopNavSection ul li:last-child a{
-	padding-left: 15px;
-    padding-right: 15px;
+	padding-left: 14px;
+    padding-right: 14px;
 }
 /*FOOTER*/
 .footerLeftSection{
