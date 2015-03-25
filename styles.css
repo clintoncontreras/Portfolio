@@ -23,6 +23,8 @@ li{
 	/*background-image:url(images/homepage/codeBackground.jpg);*/
 	background-color: #bbbbbb;
 	background-color: #b8ec79;
+	float: left;
+    width: 100%;
 }
 .responsiveContainer{
 	height: 100%;
@@ -59,6 +61,7 @@ fullWidth{
 .headerSection{
 	background-color: #222;
 	height:80px;
+	width: 100%;
 }
 .headerHomeLinkSection{
 	float: left;
@@ -80,7 +83,7 @@ fullWidth{
 	float: left;
 }
 .headerHomeLinkSection div img{
-	margin-top: -5px;
+	margin-top: 12px;
 }
 .headerHomeLinkSection h1{
 	color: white;
@@ -143,6 +146,8 @@ fullWidth{
 	background-color: #222;
 	padding-bottom: 30px;
     padding-top: 50px;
+	float: left;
+	width: 100%;
 }
 .footerLeftSection{
 	float: left;
@@ -298,12 +303,12 @@ fullWidth{
 }
 
 .mainNavigationSection div.ui-state-default{
-	float: right;
-    margin-right: 50px;
     width: 127px;
 	cursor:pointer;
 	position: relative;
 	height: 16px;
+	margin-left:auto;
+	margin-right:auto;
 }
 .mainNavigationSection span.back-to-top{
 	clear: none;
@@ -317,7 +322,6 @@ fullWidth{
 .navigationTab{
 	border-bottom: 4px double grey;
     clear: both;
-    float: left;
     height: 320px;
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -350,20 +354,20 @@ fullWidth{
 	margin-bottom: 20px;
 }
 .mainNavigationSectionHistory{
-	height: 2599px;
+	/*height: 2599px;*/
+	float: left;
+	width: 100%;
 }
 .historyWorkTab{
-    clear: both;
-    float: left;
     margin-bottom: 20px;
     padding-bottom: 20px;
     padding-right: 10px;
-	width: 1250px;
 }
 .historyWorkTab p:first-child{
 	border-bottom: 4px double grey;
 	display: block;
 	margin-bottom:10px;
+	color:#9fda58;
 }
 .historyWorkTab div p:first-child{
 	border:none;
@@ -373,20 +377,21 @@ fullWidth{
 }
 .historyWorkTab p:nth-child(2){
 	float: left;
+	color:#9fda58;
 }
 .historyWorkTab p:nth-child(3){
 	margin-bottom:10px;
+	float:left;
+	color:white;
 }
 .historyWorkTab img{
 	margin-left: 20px;
+	float:right;
 }
 .historyWorkSection{
-	float: left;
     width: 100%;
 }
 .historyEducationSection{
-	clear: both;
-    float: left;
     height: 375px;
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -581,14 +586,12 @@ fullWidth{
 	display: none;
 }
 .mainNavigationSection div.ui-state-default{
-	margin-right: 95px;
 }
 /*HISTORY*/
 .mainNavigationSectionHistory{
-	height: 4732px;
+	/*height: 3081px;*/
 }
 .historyWorkTab{
-	width: 320px;
 	padding-right:0;
 	text-align: center;
 }
@@ -683,17 +686,15 @@ fullWidth{
 	height: 320px;
 }
 .mainNavigationSection div.responsiveContainer{
-	padding-left: 10px;
 }
 .navigationTab p:last-of-type{
 	display:block;
 }
 .mainNavigationSection div.ui-state-default{
-	margin-right:50px;
 }
 /*HISTORY*/
 .mainNavigationSectionHistory{
-	height: 3659px;
+	/*height: 2168px;*/
 }
 .historyWorkTab div{
 	margin-bottom: 0;
@@ -714,7 +715,6 @@ fullWidth{
     margin-right: 0;
 }
 .historyWorkTab{
-	width: 460px;
 	padding-right:10px;
 	text-align: left;
 }
@@ -779,10 +779,9 @@ fullWidth{
 }
 /*HISTORY*/
 .mainNavigationSectionHistory{
-	height: 3126px;
+	/*height: 1783px;*/
 }
 .historyWorkTab{
-	width: 580px;
 }
 .historyEducationSection{
 	width: 580px;
@@ -838,10 +837,9 @@ fullWidth{
 }
 /*HISTORY*/
 .mainNavigationSectionHistory{
-	height: 2609px;
+	/*height: 1463px;*/
 }
 .historyWorkTab{
-	width: 780px;
 }
 .historyEducationSection{
 	width: 780px;
@@ -897,7 +895,7 @@ fullWidth{
 }
 /*HISTORY*/
 .mainNavigationSectionHistory{
-	height: 2378px;
+	/*height: 1357px;*/
 }
 .historyEducationSection img{
 	display:block;
@@ -906,7 +904,6 @@ fullWidth{
 	margin-bottom:0;
 }
 .historyWorkTab{
-	width: 1004px;
 }
 .historyEducationSection{
 	height: 404px;
@@ -962,10 +959,9 @@ fullWidth{
 }
 /*HISTORY*/
 .mainNavigationSectionHistory {
-    height: 2169px;
+    /*height: 1240px;*/
 }
 .historyWorkTab{
-	width: 1260px;
 }
 .historyEducationSection{
 	width: 1260px;
