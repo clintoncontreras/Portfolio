@@ -303,8 +303,12 @@ fullWidth{
     font-weight: 900;
     text-align: left;
     text-transform: uppercase;
+	margin-left:10px;
 }
-
+.mainNavigationSection h4{
+	margin-left: 10px;
+    margin-right: 10px;
+}
 .mainNavigationSection div.ui-state-default{
     width: 127px;
 	cursor:pointer;
@@ -362,7 +366,6 @@ fullWidth{
 	width: 100%;
 }
 .historyWorkTab{
-    margin-bottom: 20px;
     padding-bottom: 20px;
     padding-right: 10px;
 }
@@ -397,9 +400,11 @@ fullWidth{
 .historyEducationSection{
     height: 375px;
     margin-bottom: 20px;
+    margin-top: 30px;
     padding-bottom: 20px;
+    padding-left: 10px;
     padding-right: 10px;
-	width: 1250px;
+    width: 1250px;
 }
 
 
@@ -498,6 +503,58 @@ fullWidth{
   0%{transform:skewX(7deg)}
   50%{transform:skewX(-7deg)}
   100%{transform:skewX(7deg)}
+}
+
+
+
+/*PARALLAX SCROLLING STYLES*/
+/* Parallax base styles
+--------------------------------------------- */
+.parallax {
+height: 100vh;
+overflow-x: hidden;
+overflow-y: auto;
+-webkit-perspective: 1px;
+perspective: 1px;
+}
+.parallax__layer {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+}
+.parallax__layer--base {
+-webkit-transform: translateZ(0);
+transform: translateZ(0);
+}
+.parallax__layer--back {
+-webkit-transform: translateZ(-1px);
+transform: translateZ(-1px);
+}
+/* demo styles
+--------------------------------------------- */
+* {
+margin:0;
+padding:0;
+}
+body {
+font: 100% / 1.5 Arial;
+}
+.parallax {
+font-size: 200%;
+}
+/* add some padding to force scrollbars */
+.parallax__layer {
+padding: 100vh 0;
+}
+/* centre the content in the parallax layers */
+.title {
+position: absolute;
+left: 50%;
+top: 50%;
+-webkit-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
 }
 
 
@@ -624,10 +681,8 @@ fullWidth{
     text-align: left;
 }
 .historyEducationSection{
-	height: 740px;
-    padding-left: 5px;
-    padding-right: 5px;
-    width: 310px;
+	height: 795px;
+    width: 300px;
 }
 .historyEducationSection img{
 	display:none;
@@ -726,10 +781,8 @@ fullWidth{
 	text-align: left;
 }
 .historyEducationSection{
-	width: 460px;
+	width: 450px;
 	height: 555px;
-	padding-right: 10px;
-	padding-left:0;
 }
 .historyEducationSection div{
 	text-align:left;
@@ -791,7 +844,7 @@ fullWidth{
 .historyWorkTab{
 }
 .historyEducationSection{
-	width: 580px;
+	width: 570px;
 	height: 472px;
 }
 }
@@ -849,7 +902,7 @@ fullWidth{
 .historyWorkTab{
 }
 .historyEducationSection{
-	width: 780px;
+	width: 770px;
 	height: 375px;
 }
 }
@@ -914,7 +967,7 @@ fullWidth{
 }
 .historyEducationSection{
 	height: 404px;
-    width: 1004px;
+    width: 994px;
 }
 }
 @media screen and (min-width: 1280px) {
@@ -971,7 +1024,7 @@ fullWidth{
 .historyWorkTab{
 }
 .historyEducationSection{
-	width: 1260px;
+	width: 1250px;
 	height: 375px;
 }
 }
