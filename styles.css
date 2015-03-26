@@ -408,6 +408,139 @@ fullWidth{
 }
 
 
+/*PROJECTS PAGE*/
+/*PARALLAX STYLES FOR PROJECTS PAGE*/
+.parallax {
+	height:100%; 
+	margin:0; 
+	overflow-x:hidden; 
+	overflow-y:auto; 
+	padding:0; 
+	perspective:1px; 
+	transform-style:preserve-3d;
+}
+.parallax h1 {
+	font-size:250%;
+}
+.parallax p {
+	color:#ffffff; 
+	font-size:140%; 
+	line-height:150%; 
+	position:relative; 
+	z-index:500;
+}
+.slide {
+	box-shadow:0 -1px 10px rgba(0, 0, 0, 0.7); 
+	box-sizing:border-box; 
+	min-height:100vh; 
+	padding:25vh 10%; 
+	position:relative; 
+	transform-style:inherit; 
+	width:100vw;
+}
+.parallax img {
+	background:none repeat scroll 0 0 rgba(240, 230, 220, 0.7); 
+	border-radius:5px; 
+	box-shadow:0 0 8px rgba(0, 0, 0, 0.7); 
+	height:240px;
+    left:35%; 
+	padding:10px; 
+	position:absolute; 
+	top:50%; 
+	transform:translateZ(0.25px) scale(0.75) translateX(-94%) translateY(-100%) rotate(2deg); 
+	width:320px;
+}
+.parallax img:last-of-type {
+	transform: translateZ(0.4px) scale(0.6) translateX(-104%) translateY(-40%) rotate(-5deg);
+}
+.slide::before {
+	bottom:0; 
+	content:""; 
+	left:0; 
+	position:absolute; 
+	right:0; 
+	top:0;
+}
+.title {
+	background:none repeat scroll 0 0 rgba(2, 2, 2, 0.7); 
+	color:#f27620; 
+	padding: 15% 5%; 
+	width: 90%;
+}
+.slide:nth-child(2n) .title {
+	margin-left:0; 
+	margin-right:auto;
+}
+.slide:nth-child(2n+1) .title {
+	margin-left:auto; 
+	margin-right:0;
+}
+.slide, .slide::before {
+	background:none repeat scroll 50% 50% / cover rgba(0, 0, 0, 0);
+}
+.header {
+	color:#ffffff; 
+	font-size:175%; 
+	text-align:center; 
+	text-shadow:0 2px 2px #000000;
+}
+#title {
+	background-attachment:fixed; 
+	background-image:url(images/projects/topCollage.png);
+}
+#title div{
+	height: 400px;
+    width: 100%;
+	background-color:rgba(255,255,255,0.8);
+}
+#title div h3{
+	height: 100%;
+    padding-top: 165px;
+    text-align: center;
+}
+.parallax .skills {
+	display:none;
+}
+#slide1::before {
+	background-image:url(images/projects/chessHome.png);
+	transform:translateZ(0) scale(1);
+	z-index:-1;
+}
+#slide2 {
+	background-attachment:fixed; 
+	background-image:url("./images/pipes.jpg");
+}
+#slide3::before {
+	background-image:url("./images/text.jpg"); 
+	transform:translateZ(0) scale(1); 
+	z-index:-1;
+}
+.slide4 {
+	background-attachment:fixed; 
+	background-image:url("./images/puzzle.jpg");
+}
+#slide5 {
+	background:none repeat scroll 0 0 #222222;
+}
+
+
+
+/*SLIDE CONTENT*/
+.mainNavigationSectionProjects h4{
+	color: white;
+    font-size: 2.625em;
+    text-align: center;
+    text-shadow: 0 2px 2px #000000;
+}
+.mainNavigationSectionProjects a{
+	color: #9fda58;
+    font-size: 20px;
+    margin-left: 570px;
+}
+
+
+
+
 /*SHAKE ANIMATION EFFECT*/
 .shake:hover,
 .shake:focus {
@@ -509,77 +642,7 @@ fullWidth{
 
 
 
-/*PARALLAX STYLES FOR PROJECTS PAGE*/
-.parallax {
-	height:100vh;
-	overflow-x:hidden;
-	overflow-y:auto;
-	-webkit-perspective:1px;
-	perspective:1px;
-}
 
-.parallax_layer {
-	position:absolute;
-	top:0;
-	left:0;
-	right:0;
-	bottom:0;
-}
-
-.parallax_base {
-	-webkit-transform:translateZ(0);
-	transform:translateZ(0);
-}
-
-.parallax_back {
-	-webkit-transform:translateZ(0);
-	transform:translateZ(0);
-}
-
-* {
-	margin:0;
-	padding:0
-}
-
-body {
-	font:100% / 1.5 Arial;
-}
-
-.parallax {
-	font-size:200%;
-}
-
-.parallax_layer {
-	padding:100vh 0;
-}
-
-.parallax_group {
-	position:relative;
-	height:100vh;
-	transform-style:preserve-3d;
-}
-
-/*SLIDE STYLES*/
-.parallax_slide1{
-	background-image:url(images/projects/topCollage.png);
-	background-attachment:fixed;
-	background-size:contain;
-	background-repeat:no-repeat;
-}
-.parallax_slide2{
-	background-image:url(images/projects/chessHome.png);
-	background-repeat:no-repeat;
-	background-size:contain;
-}
-
-/*SLIDE CONTENT STYLES*/
-.title {
-	position:absolute;
-	left:50%;
-	top:50%;
-	-webkit-transform:translate(-50%,-50%);
-	transform:translate(-50%,-50%);
-}
 
 
 
