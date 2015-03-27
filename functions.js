@@ -47,4 +47,29 @@ $(document).ready(function() {
 	
 	//ACCORDIAN FUNCTION
 	$( ".accordion" ).accordion();
+	
+	//PROJECT PAGE COLOR HOVER ANIMATOR
+	$('.projectsIndexContainer a').on({
+		mouseenter: function () {
+			$(this).animate({color:'#b8ec79'},500);
+		},
+		mouseleave: function () {
+			$(this).animate({color:'#9fda58'},500);
+		} 
+	});
+	
 });
+
+
+/*FUNCTIONS*/
+//PROJECT PAGE SEARCH TAB ANIMATION
+function searchTabOpenClose(){
+	if($(".projectsIndexContainer").css("display") == "none") { 
+		$(".projectsIndexContainer").show('slide', {direction: 'right'}, 500);
+		$(".projectsIndexTab").animate({"right":"283px"}, 500);
+	}
+	else if($(".projectsIndexContainer").css("display") == "block"){
+		$(".projectsIndexContainer").hide('slide', {direction: 'right'}, 500);
+		$(".projectsIndexTab").animate({"right":"-20px"}, 500);
+	}
+}
