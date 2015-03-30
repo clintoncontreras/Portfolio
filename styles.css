@@ -582,16 +582,58 @@ fullWidth{
 	background-image:url(images/projects/chessBackground.jpg);
 }
 #slide3::before {
-	background-image:url("./images/text.jpg"); 
+	background-image:url(images/projects/formalsHome.png); 
 	transform:translateZ(0) scale(1); 
 	z-index:-1;
 }
 .slide4 {
 	background-attachment:fixed; 
-	background-image:url("./images/puzzle.jpg");
+	background-image:url(images/projects/formalsShowroom.jpg);
 }
-#slide5 {
-	background:none repeat scroll 0 0 #222222;
+#slide5::before {
+	background-image:url(images/projects/itascahome.png);
+	transform:translateZ(0) scale(1); 
+	z-index:-1;
+}
+.slide6 {
+	background-attachment:fixed; 
+	background-image:url(images/projects/itascabackground.jpg);
+}
+#slide7::before {
+	background-image:url(images/projects/tikimasterhome.png); 
+	transform:translateZ(0) scale(1); 
+	z-index:-1;
+}
+.slide8 {
+	background-attachment:fixed; 
+	background-image:url(images/projects/tikimasterbackground.jpg);
+}
+#slide9::before {
+	background-image:url(images/projects/bluecollarhome.jpg);
+	transform:translateZ(0) scale(1); 
+	z-index:-1;
+}
+.slide10 {
+	background-attachment:fixed; 
+	background-image:url(images/projects/bluecollarbackground.png); 
+}
+#slide11::before {
+	background-image:url(images/projects/formalsHome.png); 
+	transform:translateZ(0) scale(1); 
+	z-index:-1;
+}
+.slide12 {
+	background-attachment:fixed; 
+	background-image:url(images/projects/formalsShowroom.jpg);
+}
+#slide13::before {
+	background-image:url(images/projects/formalsHome.png); 
+	transform:translateZ(0) scale(1); 
+	z-index:-1;
+}
+.slide14 {
+	background-attachment:fixed; 
+	background-image:url(images/projects/formalsShowroom.jpg);
 }
 
 /*SLIDE CONTENT*/
@@ -607,17 +649,31 @@ fullWidth{
     margin-left: 570px;
 }
 
-.mainNavigationSectionProjects div#slide2 a{
+.mainNavigationSectionProjects div a.projectDescriptionLink{
 	font-size: 21px;
     margin-left: 0;
 }
-.mainNavigationSectionProjects div#slide2 img.projectsChessLogo{
+.mainNavigationSectionProjects div img.projectsSlideLogo{
 	float: left;
+    height: auto;
     left: 0;
     margin: 20px;
     position: relative;
     top: 0;
     transform: none;
+    width: auto;
+}
+.mainNavigationSectionProjects div.slide4 img.projectsSlideLogo{
+	background: none;
+	box-shadow: none;
+}
+.mainNavigationSectionProjects div.slide6 img.projectsSlideLogo{
+	background: none;
+	box-shadow: none;
+}
+.mainNavigationSectionProjects div.slide8 img.projectsSlideLogo{
+	background: none;
+	box-shadow: none;
 }
 
 
