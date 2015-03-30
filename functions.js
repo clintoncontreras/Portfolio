@@ -49,7 +49,7 @@ $(document).ready(function() {
 	$( ".accordion" ).accordion();
 	
 	//PROJECT PAGE COLOR HOVER ANIMATOR
-	$('.projectsIndexContainer a').on({
+	$('.mainNavigationSectionProjects a').on({
 		mouseenter: function () {
 			$(this).animate({color:'#b8ec79'},500);
 		},

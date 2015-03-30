@@ -365,6 +365,15 @@ fullWidth{
 	float: left;
 	width: 100%;
 }
+.mainNavigationSectionHistory h3{
+	color:#9fda58;
+}
+.mainNavigationSectionHistory h4{
+	color:white;
+}
+.mainNavigationSectionHistory p:first-of-type{
+	color: #9fda58;
+}
 .historyWorkTab{
     padding-bottom: 20px;
     padding-right: 10px;
@@ -405,6 +414,13 @@ fullWidth{
     padding-left: 10px;
     padding-right: 10px;
     width: 1250px;
+}
+.historyEducationSection p{
+	color:white;
+}
+.historyEducationSection p.historyEducationTitle{
+	font-size: 1.4em;
+	margin-bottom:10px;
 }
 
 
@@ -523,7 +539,7 @@ fullWidth{
     right: -10px;
     width: 300px;
     z-index: 10;
-	text-shadow: 0 2px 2px #000000;
+	text-shadow: 0 1px 1px #000000;
 	display:none;
 	box-shadow:0 2px 10px #000000;
 	border-radius:10px;
@@ -563,7 +579,7 @@ fullWidth{
 }
 #slide2 {
 	background-attachment:fixed; 
-	background-image:url("./images/pipes.jpg");
+	background-image:url(images/projects/chessBackground.jpg);
 }
 #slide3::before {
 	background-image:url("./images/text.jpg"); 
@@ -589,6 +605,19 @@ fullWidth{
 	color: #9fda58;
     font-size: 20px;
     margin-left: 570px;
+}
+
+.mainNavigationSectionProjects div#slide2 a{
+	font-size: 21px;
+    margin-left: 0;
+}
+.mainNavigationSectionProjects div#slide2 img.projectsChessLogo{
+	float: left;
+    left: 0;
+    margin: 20px;
+    position: relative;
+    top: 0;
+    transform: none;
 }
 
 
