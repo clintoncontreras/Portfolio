@@ -451,7 +451,7 @@ fullWidth{
 	min-height:100vh; 
 	padding:25vh 10%; 
 	position:relative; 
-	transform-style:inherit; 
+	transform-style:preserve-3d;
 	width:100vw;
 }
 .parallax img {
@@ -473,7 +473,6 @@ fullWidth{
 	bottom:0; 
 	content:""; 
 	left:0; 
-	position:absolute; 
 	right:0; 
 	top:0;
 }
@@ -501,7 +500,6 @@ fullWidth{
 	text-shadow:0 2px 2px #000000;
 }
 #title {
-	background-attachment:fixed; 
 	background-image:url(images/projects/slide1.jpg);
 }
 #title div:first-child{
@@ -572,71 +570,80 @@ fullWidth{
 .parallax .skills {
 	display:none;
 }
-#slide1::before {
+.slideFixed{
+	background-attachment:fixed; 
+}
+#slide1{
 	background-image:url(images/projects/chessHome.png);
+}
+#slide1::before {
 	transform:translateZ(0) scale(1);
 	z-index:-1;
 }
 #slide2 {
-	background-attachment:fixed; 
 	background-image:url(images/projects/chessBackground.jpg);
 }
-#slide3::before {
+#slide3{
 	background-image:url(images/projects/formalsHome.png); 
+}
+#slide3::before {
 	transform:translateZ(0) scale(1); 
 	z-index:-1;
 }
 .slide4 {
-	background-attachment:fixed; 
 	background-image:url(images/projects/formalsShowroom.jpg);
 }
-#slide5::before {
+#slide5{
 	background-image:url(images/projects/itascahome.png);
+}
+#slide5::before {
 	transform:translateZ(0) scale(1); 
 	z-index:-1;
 }
 .slide6 {
-	background-attachment:fixed; 
 	background-image:url(images/projects/itascabackground.jpg);
 }
-#slide7::before {
+#slide7{
 	background-image:url(images/projects/tikimasterhome.png); 
+}
+#slide7::before {
 	transform:translateZ(0) scale(1); 
 	z-index:-1;
 }
 .slide8 {
-	background-attachment:fixed; 
 	background-image:url(images/projects/tikimasterbackground.jpg);
 }
-#slide9::before {
+#slide9{
 	background-image:url(images/projects/bluecollarhome.jpg);
+}
+#slide9::before {
 	transform:translateZ(0) scale(1); 
 	z-index:-1;
 }
 .slide10 {
-	background-attachment:fixed; 
 	background-image:url(images/projects/bluecollarbackground.png); 
 }
-#slide11::before {
+#slide11{
 	background-image:url(images/projects/downlitehome.png); 
+}
+#slide11::before {
 	transform:translateZ(0) scale(1); 
 	z-index:-1;
 }
 .slide12 {
-	background-attachment:fixed; 
 	background-image:url(images/projects/downlitebackground.jpg);
 }
-#slide13::before {
+#slide13{
 	background-image:url(images/projects/templatesbackground.jpg); 
+}
+#slide13::before {
 	transform:translateZ(0) scale(1); 
 	z-index:-1;
 }
 .slide14 {
-	background-attachment:fixed; 
 	background-image:url(images/projects/greenspeedtemplate.png);
 }
 .slide15 {
-	background-attachment:fixed; 
 	background-image:url(images/projects/pandbtemplate.png);
 }
 
