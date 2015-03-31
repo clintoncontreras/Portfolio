@@ -618,22 +618,26 @@ fullWidth{
 	background-image:url(images/projects/bluecollarbackground.png); 
 }
 #slide11::before {
-	background-image:url(images/projects/formalsHome.png); 
+	background-image:url(images/projects/downlitehome.png); 
 	transform:translateZ(0) scale(1); 
 	z-index:-1;
 }
 .slide12 {
 	background-attachment:fixed; 
-	background-image:url(images/projects/formalsShowroom.jpg);
+	background-image:url(images/projects/downlitebackground.jpg);
 }
 #slide13::before {
-	background-image:url(images/projects/formalsHome.png); 
+	background-image:url(images/projects/templatesbackground.jpg); 
 	transform:translateZ(0) scale(1); 
 	z-index:-1;
 }
 .slide14 {
 	background-attachment:fixed; 
-	background-image:url(images/projects/formalsShowroom.jpg);
+	background-image:url(images/projects/greenspeedtemplate.png);
+}
+.slide15 {
+	background-attachment:fixed; 
+	background-image:url(images/projects/pandbtemplate.png);
 }
 
 /*SLIDE CONTENT*/
@@ -672,6 +676,14 @@ fullWidth{
 	box-shadow: none;
 }
 .mainNavigationSectionProjects div.slide8 img.projectsSlideLogo{
+	background: none;
+	box-shadow: none;
+}
+.mainNavigationSectionProjects div.slide10 img.projectsSlideLogo{
+	background: none;
+	box-shadow: none;
+}
+.mainNavigationSectionProjects div.slide12 img.projectsSlideLogo{
 	background: none;
 	box-shadow: none;
 }
