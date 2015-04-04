@@ -744,6 +744,7 @@ fullWidth{
     margin-right: auto;
     text-shadow: 0 2px 2px #000000;
     width: 310px;
+	border-radius: 10px;
 }
 .title button:hover{
 	background: url("images/ui-bg_gloss-wave_85_9fda58_500x100.png") repeat-x scroll 50% 50% #0a0a0a;
