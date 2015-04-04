@@ -442,6 +442,7 @@ fullWidth{
 /*PARALLAX STYLES FOR PROJECTS PAGE*/
 .mainNavigationSectionProjects{
 	height: 100%;
+	width: 100%;
     margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -494,6 +495,9 @@ fullWidth{
 	width: 90%;
 	border-radius: 5px;
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);	
+}
+.titleLight{
+	background: none repeat scroll 0 0 rgba(200, 200, 200, 0.5);
 }
 .slide:nth-child(2n) .title {
 	margin-left:0; 
@@ -729,7 +733,23 @@ fullWidth{
 	background: none;
 	box-shadow: none;
 }
-
+.title button{
+	background:url("images/ui-bg_gloss-wave_55_000000_500x100.png") repeat-x scroll 50% 50% #0a0a0a;
+    border: medium none;
+    color: #9fda58;
+    display: block;
+    font-size: 20px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0 2px 2px #000000;
+    width: 310px;
+}
+.title button:hover{
+	background: url("images/ui-bg_gloss-wave_85_9fda58_500x100.png") repeat-x scroll 50% 50% #0a0a0a;
+	color: #242424;
+	text-shadow:none;
+}
 
 .mainNavigationSectionProjects div.projectBackToTopButton{
 	bottom: 0;
@@ -989,8 +1009,17 @@ fullWidth{
 	top: 265px;
 }
 #greenspeedDialog{
+	background-image:url(images/projects/greenspeed320x480.png);
+	height: 350px !important;
+    width: 212px !important;
 }
 #pinkAndBlackDialog{
+	background-image:url(images/projects/pinkandblack320x480.png);
+	height: 213px !important;
+    width: 220px !important;
+}
+.title button {
+	width: 225px;
 }
 }
 @media screen and (min-width: 480px) { 
@@ -1095,14 +1124,17 @@ fullWidth{
 	top: 180px;
 }
 #greenspeedDialog{
+	background-image:url(images/projects/greenspeed480x640.png);
+	height: 571px !important;
+    width: 403px !important;
 }
 #pinkAndBlackDialog{
+	background-image:url(images/projects/pinkandblack480x640.png);
+	height: 364px !important;
+    width: 409px !important;
 }
-}
-@media screen and (min-width: 640px) { 
-/*GENERAL/TEMPLATE STYLES*/
-.responsiveContainer{
-	width:600px;
+.title button {
+	width: 310px;
 }
 /*HEADER*/
 .mainNavigationSection div.responsiveContainer{
@@ -1158,13 +1190,21 @@ fullWidth{
 	width: 570px;
 	height: 472px;
 }
+}
+@media screen and (min-width: 640px) { 
 /*PROJECTS*/
 .projectsIndexTab{
 	top: 125px;
 }
 #greenspeedDialog{
+	background-image:url(images/projects/greenspeed640x480.png);
+	height: 405px !important;
+    width: 530px !important;
 }
 #pinkAndBlackDialog{
+	background-image:url(images/projects/pinkandblack640x480.png);
+	height: 405px !important;
+    width: 505px !important;
 }
 }
 @media screen and (min-width: 800px) { 
@@ -1229,8 +1269,14 @@ fullWidth{
 	top: 125px;
 }
 #greenspeedDialog{
+	background-image:url(images/projects/greenspeed800x600.png);
+	height: 530px !important;
+    width: 696px !important;
 }
 #pinkAndBlackDialog{
+	background-image:url(images/projects/pinkandblack800x600.png);
+	height: 530px !important;
+    width: 680px !important;
 }
 }
 @media screen and (min-width: 1024px) { 
@@ -1298,8 +1344,14 @@ fullWidth{
 }
 /*PROJECTS*/
 #greenspeedDialog{
+	background-image:url(images/projects/greenspeed1024x600.png);
+	height: 512px !important;
+    width: 860px !important;
 }
 #pinkAndBlackDialog{
+	background-image:url(images/projects/pinkandblack1024x600.png);
+	height: 619px !important;
+    width: 950px !important;
 }
 }
 @media screen and (min-width: 1280px) {
@@ -1361,7 +1413,13 @@ fullWidth{
 }
 /*PROJECTS*/
 #greenspeedDialog{
+	background-image:url(images/projects/greenspeed1280x850.png);
+	height: 770px !important;
+    width: 1150px !important;
 }
 #pinkAndBlackDialog{
+	background-image:url(images/projects/pinkandblack1280x800.png);
+	height: 619px !important;
+    width: 1150px !important;
 }
 }

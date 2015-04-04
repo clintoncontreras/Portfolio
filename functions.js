@@ -64,8 +64,7 @@ $(document).ready(function() {
 		mouseleave: function () {
 			$(this).animate({color:'#9fda58'},500);
 		} 
-	});
-	
+	});	
 });
 
 
@@ -82,10 +81,9 @@ function searchTabOpenClose(){
 	}
 }
 
+//PROJECT PAGE TEMPLATE MODAL SHOW
 function projectTemplateModal(tempImg){
 	var screenWidth = $(window).width()-40;
 	var screenHeight = $(window).height()-20;
-	$("#"+tempImg+" img").css("width",screenWidth-35);
-	$("#"+tempImg+" img").css("height","420px");
 	$("#"+tempImg ).dialog({'modal':'true', 'title':'','width':screenWidth, height:screenHeight, 'dialogClass' : tempImg});
 }
