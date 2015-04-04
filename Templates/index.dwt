@@ -8,6 +8,7 @@
 <!-- TemplateEndEditable -->
 
 <!-- TemplateBeginEditable name="head" -->
+<!--VERSION : 0.04-->
 <!--SCRIPTS-->
 <script src="../jquery-2.1.3.min.js"></script>
 <script src="../jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
@@ -122,6 +123,7 @@
                 <div><a class="uppercase">References</a></div>
             </div>
             <div class="footerCreditsSection">
+            	<p>Version 0.04</p>
             </div>
     	</div>
     </div>
