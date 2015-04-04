@@ -65,6 +65,16 @@ $(document).ready(function() {
 			$(this).animate({color:'#9fda58'},500);
 		} 
 	});	
+	
+	//REFERENCES PAGE COLOR HOVER ANIMATION
+	$('.mainNavigationSectionReferences a').on({
+		mouseenter: function () {
+			$(this).animate({color:'#b8ec79'},500);
+		},
+		mouseleave: function () {
+			$(this).animate({color:'#9fda58'},500);
+		} 
+	});	
 });
 
 

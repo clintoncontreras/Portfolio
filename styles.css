@@ -55,7 +55,6 @@ li{
 fullWidth{
 	width:100%;
 }
-
 /*HEADER*/
 
 .headerSection{
@@ -378,6 +377,7 @@ fullWidth{
 	/*height: 2599px;*/
 	float: left;
 	width: 100%;
+	background-color:black;
 }
 .mainNavigationSectionHistory h3{
 	color:#9fda58;
@@ -757,6 +757,58 @@ fullWidth{
     position: absolute;
     right: 1px;
 }
+
+
+/*REFERENCES*/
+.mainNavigationSectionReferences{
+	background-color:black;
+}
+.mainNavigationSectionReferences div.referenceSection{
+	margin-top:20px;
+}
+.mainNavigationSectionReferences h3{
+	margin:0;
+	color: #b8ec79;
+}
+.mainNavigationSectionReferences h4{
+	color: #9fda58;
+    margin: 0;
+}
+.mainNavigationSectionReferences p{
+	color: white;
+}
+.mainNavigationSectionReferences a{
+	color:#9fda58;
+}
+
+
+/*TESTIMONIALS*/
+/*REFERENCES*/
+.mainNavigationSectionTestimonials{
+	background-color:black;
+}
+.mainNavigationSectionTestimonials div.TestimonialsSection{
+	margin-top:20px;
+}
+.mainNavigationSectionTestimonials h3{
+	margin:0;
+	color: #b8ec79;
+}
+.mainNavigationSectionTestimonials h4{
+	color: #9fda58;
+    margin: 0;
+}
+.mainNavigationSectionTestimonials p{
+	color: white;
+}
+.mainNavigationSectionTestimonials a{
+	color:#9fda58;
+}
+
+
+
+
+
 
 
 
