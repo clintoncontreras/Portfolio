@@ -89,27 +89,28 @@
         </div>
     </div>
     -->
-    <!-- InstanceBeginEditable name="mainContent" --><div class="mainNavigationSection mainNavigationSectionProjects">
-        <div class="projectsIndexTab" onClick="searchTabOpenClose();">
-        	<img src="images/projects/search_icon.png" />
-        </div>
-        <div class="projectsIndexContainer">
-            <p>Skip to a specific project</p>
-            <ul>
-                <li><a onClick="$('html, body').animate({scrollTop: $('#slide1').offset().top}, 1000);">TheChessStore.com</a></li>
-                <li><a onClick="$('html, body').animate({scrollTop: $('#slide3').offset().top}, 1000);">OnlineFormals.com</a></li>
-                <li><a onClick="$('html, body').animate({scrollTop: $('#slide5').offset().top}, 1000);">ItascaMoccasin.com</a></li>
-                <li><a onClick="$('html, body').animate({scrollTop: $('#slide7').offset().top}, 1000);">Tikimaster.com</a></li>
-                <li><a onClick="$('html, body').animate({scrollTop: $('#slide9').offset().top}, 1000);">BlueCollorDepot.com</a></li>
-                <li><a onClick="$('html, body').animate({scrollTop: $('#slide11').offset().top}, 1000);">DownliteBedding</a></li>
-                <li><a onClick="$('html, body').animate({scrollTop: $('#slide13').offset().top}, 1000);">E-Commerce Templates</a></li>
-            </ul>
-        </div>
-            <div class="slide header slideFixed" id="title">
-                <div>
-                    <h3>PREVIOUS PROJECTS</h3>
-                </div>
+    <!-- InstanceBeginEditable name="mainContent" -->
+    <div class="projectsIndexTab" onClick="searchTabOpenClose();">
+        <img src="images/projects/search_icon.png" />
+    </div>
+    <div class="projectsIndexContainer">
+        <p>Skip to a specific project</p>
+        <ul>
+            <li><a onClick="$('html, body').animate({scrollTop: $('#slide1').offset().top}, 1000);">TheChessStore.com</a></li>
+            <li><a onClick="$('html, body').animate({scrollTop: $('#slide3').offset().top}, 1000);">OnlineFormals.com</a></li>
+            <li><a onClick="$('html, body').animate({scrollTop: $('#slide5').offset().top}, 1000);">ItascaMoccasin.com</a></li>
+            <li><a onClick="$('html, body').animate({scrollTop: $('#slide7').offset().top}, 1000);">Tikimaster.com</a></li>
+            <li><a onClick="$('html, body').animate({scrollTop: $('#slide9').offset().top}, 1000);">BlueCollorDepot.com</a></li>
+            <li><a onClick="$('html, body').animate({scrollTop: $('#slide11').offset().top}, 1000);">DownliteBedding</a></li>
+            <li><a onClick="$('html, body').animate({scrollTop: $('#slide13').offset().top}, 1000);">E-Commerce Templates</a></li>
+        </ul>
+    </div>
+    <div class="mainNavigationSection mainNavigationSectionProjects">
+        <div class="slide header slideFixed" id="title">
+            <div>
+                <h3>PREVIOUS PROJECTS</h3>
             </div>
+        </div>
         
             <div class="slide" id="slide1">
                 <div class="title">
@@ -234,9 +235,9 @@
             	<div class="title">
                     <img class="projectsSlideLogo" src="images/projects/downlitelogo.png" />
                     <p>DownlitBedding.com was a certified Sealy distributor of many of Sealy's best mattresses and bedding materials. Downlite, like many of the above clients had a long relationship
-                    Zoovy and were upgrading from their old v-store platform to the appstore platform. The project was originally started by another Dev to start but was transferred to Clinton mid-way
-                    through the build. Originally the project was a straight forward conversion from their v-store platform but later included a one of a kind hotel product finder. This tool would 
-                    allow a visitor to select a hotel from a series of tiered dropdown menus. When a hotel/location was selected, a list of products of the exact products that the hotel carries
+                    with Zoovy and were upgrading from their old v-store platform to the appstore platform. The project was originally given to another Developer to start but was transferred to Clinton mid-way
+                    through the build. Originally the project was a straight forward conversion from their v-store platform but later included a one of a kind hotel product finder. This tool 
+                    allowed a visitor to select a hotel from a series of tiered dropdown menus. When a hotel/location was selected, a list of products of the exact products that the hotel carries
                     are displayed. This allowed customers that stayed at a hotel that they loved to buy the exact same kind of bedding/mattress that they stayed on at that particular hotel. <!--The
                     tool itself was completed from the front-end side of things, however, the necessary JSON files containing all the product/hotel data was never finished by the client as they 
                     opted to move to another e-commerce platform before the tool was ever able to go live.--> </p>
@@ -253,15 +254,23 @@
             </div>
             <div class="slide slide14 slideFixed" id="slide14">
             	<div class="title">
-                    <p></p>
+                    <button onClick="projectTemplateModal('greenspeedDialog')" style="position:relative; z-index:500;">Click here to see a screenshot of this template</button>
+                </div>
+                <div id="greenspeedDialog" style="display:none;">
+                	<img src="images/projects/greenspeedtemplate.png" />
                 </div>
             </div>
             <div class="slide slide15 slideFixed" id="slide15">
             	<div class="title">
-                    <p></p>
+                    <button onClick="projectTemplateModal('pinkAndBlackDialog');" style="position:relative; z-index:500;">Click here to see a screenshot of this template</button>
+                </div>
+                <div id="pinkAndBlackDialog" style="display:none;">
+                	<img src="images/projects/pandbtemplate.png" />
                 </div>
             </div>
-    </div><!-- InstanceEndEditable -->
+    	<div class="ui-state-default ui-corner-all projectBackToTopButton"><span class="back-to-top" onClick="$('html').animate({ scrollTop: 0 }, '1000');">Back to Top</span></div>
+    </div>
+<!-- InstanceEndEditable -->
     <div class="footerSection">
     	<div class="responsiveContainer">
             <div class="footerLeftSection">

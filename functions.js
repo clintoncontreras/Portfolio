@@ -57,6 +57,14 @@ $(document).ready(function() {
 			$(this).animate({color:'#9fda58'},500);
 		} 
 	});
+	$('.projectsIndexContainer a').on({
+		mouseenter: function () {
+			$(this).animate({color:'#b8ec79'},500);
+		},
+		mouseleave: function () {
+			$(this).animate({color:'#9fda58'},500);
+		} 
+	});
 	
 });
 
@@ -72,4 +80,12 @@ function searchTabOpenClose(){
 		$(".projectsIndexContainer").hide('slide', {direction: 'right'}, 500);
 		$(".projectsIndexTab").animate({"right":"-20px"}, 500);
 	}
+}
+
+function projectTemplateModal(tempImg){
+	var screenWidth = $(window).width()-40;
+	var screenHeight = $(window).height()-20;
+	$("#"+tempImg+" img").css("width",screenWidth-35);
+	$("#"+tempImg+" img").css("height","420px");
+	$("#"+tempImg ).dialog({'modal':'true', 'title':'','width':screenWidth, height:screenHeight, 'dialogClass' : tempImg});
 }
