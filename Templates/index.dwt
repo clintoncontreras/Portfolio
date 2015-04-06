@@ -8,7 +8,7 @@
 <!-- TemplateEndEditable -->
 
 <!-- TemplateBeginEditable name="head" -->
-<!--VERSION : 0.06-->
+<!--VERSION : 0.07-->
 <!--SCRIPTS-->
 <script src="../jquery-2.1.3.min.js"></script>
 <script src="../jquery-ui-1.11.4.custom/external/jquery/jquery.js"></script>
@@ -43,15 +43,15 @@
 <meta name="theme-color" content="#ffffff">
 <!-- TemplateEndEditable -->
 </head>
-
 <body>
+<!-- TemplateBeginEditable name="mainContent" -->
 <div class="backgroundContainer">
 	<div class="headerSection">
     	<div class="responsiveContainer">
         	<div class="headerHomeLinkSection">
-            	<a href="../index.html">
+            	<a href="index.html">
                     <div class="headerIconBackgroundCont">
-                        <img class="animated rubberBand" src="../images/header/logo.png" />
+                        <img class="animated rubberBand" src="images/header/logo.png" />
                     </div>
                     <h1>Clinton Contreras</h1>
                     <h2> Front End Developer</h2>
@@ -59,11 +59,11 @@
             </div>
             <div class="headerTopNavSection">
             	<ul>
-                	<li><a href="../history.html">History</a></li>
+                	<li><a href="history.html">History</a></li>
                     <li><a>Skills</a></li>
-                    <li><a href="../prevprojects.html">Projects</a></li>
-                    <li><a href="../testimonials.html">Testimonials</a></li>
-                    <li><a href="../references.html">References</a></li>
+                    <li><a href="prevprojects.html">Projects</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="references.html">References</a></li>
                 </ul>
             </div>
         </div>
@@ -89,7 +89,7 @@
         </div>
     </div>
     -->
-    <!-- TemplateBeginEditable name="mainContent" --><div class="mainNavigationSection">
+    <div class="mainNavigationSection">
     </div><!-- TemplateEndEditable -->
     <div class="footerSection">
     	<div class="responsiveContainer">
@@ -116,14 +116,14 @@
                 </div>
             </div>
             <div class="footerRightSection">
-            	<div><a class="uppercase" href="../history.html">History</a></div>
+            	<div><a class="uppercase" href="history.html">History</a></div>
                 <div><a class="uppercase">Skills</a></div>
-                <div><a class="uppercase" href="../prevprojects.html">Projects</a></div>
-                <div><a class="uppercase" href="../testimonials.html">Testimonials</a></div>
-                <div><a class="uppercase" href="../references.html">References</a></div>
+                <div><a class="uppercase" href="prevprojects.html">Projects</a></div>
+                <div><a class="uppercase" href="testimonials.html">Testimonials</a></div>
+                <div><a class="uppercase" href="references.html">References</a></div>
             </div>
             <div class="footerCreditsSection">
-            	<p>Version 0.06</p>
+            	<p>Version 0.07</p>
             </div>
     	</div>
     </div>
