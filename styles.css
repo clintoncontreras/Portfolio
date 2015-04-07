@@ -12,6 +12,7 @@ body{
     padding: 0;
     perspective: 1px;
     transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d; /* Chrome, Safari, Opera */
 }
 a, p, h1, h2, h3, h4, h5{
 	font-family: "Lato",sans-serif;
@@ -503,6 +504,7 @@ fullWidth{
 	padding:25vh 10%; 
 	position:relative; 
 	transform-style: inherit;
+	-webkit-transform-style: inherit;
 	width:100vw;
 }
 .mainNavigationSectionProjects img {

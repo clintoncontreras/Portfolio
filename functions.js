@@ -68,6 +68,8 @@ $(document).ready(function() {
 	
 	/*NAVIAGATION DROPDOWN ALWAYS AT TOP FIXER*/
 	$("body").on('scroll', fix_scroll).trigger('scroll');
+		
+	
 	//REFERENCES PAGE COLOR HOVER ANIMATION
 	$('.mainNavigationSectionReferences a').on({
 		mouseenter: function () {
@@ -92,6 +94,8 @@ function searchTabOpenClose(){
 		$(".projectsIndexTab").animate({"right":"-20px"}, 500);
 	}
 }
+
+//PROJECT PAGE POSITION FIXED ELEMENTS WORKAROUND
 function fix_scroll() {
 	console.log("scroll event triggered");
 	var index = $("body").scrollTop();
