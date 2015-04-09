@@ -44,7 +44,7 @@
             <h5>&diams; 2008-2009 &diams;</h5>
             <div class="historyWorkTab">
                 <div><p>CAI</p><p>Calibration and quality control specialist</p></div>
-                <img src="images/history/cai.jpg" />
+                <img src="images/history/cai.png" />
                 <p>California Analytical Instruments is a manufacturing company specializing in the creation and distribution of industrial level hydrocarbon analyzers. They worked with both large and small scale clients
                 across the globe to provide gas detection instrumentation. These analyzers' primary function was to detect hydrocarbon levels in carbon emissions so that industries and companies could better comply with
                 state and federal emission regulations. Clinton's role here was the dual role of both the initial calibration of newly created analyzers to fit to the customer's specifications as well as quality control
@@ -80,6 +80,20 @@
             in his graduating Suma Cum Laude with a GPA of 3.97 with a Bachelor's Degree in Computer Information Systems. Web/mobile has been the direction technology has been pushing strongly for the last decade or so and
             Clinton wanted to be a part of this world changing trend to help contribute to both its successful integration into our lives as well as being a part of its constant evolution.</p>
         </div>
-        <div class="ui-state-default ui-corner-all"><a href="#headerSection"><span class="back-to-top">Back to Top</span></a></div>
+        <!--<div class="ui-state-default ui-corner-all"><a href="#headerSection"><span class="back-to-top">Back to Top</span></a></div>-->
     </div>
 </div>
+<script>
+//BACK TO TOP BUTTON LINK ANIMATION
+$('.mainNavigationSection div.ui-state-default').on({
+	mouseenter: function () {
+		$(".mainNavigationSection span.back-to-top").animate({color:'#9fda58'},500);
+	},
+	mouseleave: function () {
+		$(".mainNavigationSection span.back-to-top").animate({color:'#b8ec79'},500);
+	} 
+});
+
+//ACCORDIAN FUNCTION
+$( ".accordion" ).accordion();
+</script>

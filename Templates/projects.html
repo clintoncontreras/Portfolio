@@ -1,6 +1,6 @@
 <div class="mainNavigationSectionProjects">
 
-    <div class="ui-state-default ui-corner-all projectBackToTopButton" style="transform:none;"><span class="back-to-top" onClick="$('body').animate({ scrollTop: 0 }, '1000');">Back to Top</span></div>
+    <!--
     <div class="projectsIndexTab" onClick="searchTabOpenClose();">
         <img src="images/projects/search_icon.png" />
     </div>
@@ -14,12 +14,9 @@
             <li><a class="linkColorChange" href="#slide9" >BlueCollorDepot.com</a></li>
             <li><a class="linkColorChange" href="#slide11">DownliteBedding</a></li>
             <li><a class="linkColorChange" href="#slide13">E-Commerce Templates</a></li
-            ><li><button onClick="$('body').animate({ scrollTop: 0 }, '1000');">top</button></li>
-            <li><button onClick="$('body').animate({ scrollTop: 500 }, '1000');">500</button></li>
-            <li><button onClick="$('body').animate({ scrollTop: 1500 }, '1000');">1500</button></li>
-            <li><button onClick="$('body').animate({ scrollTop: 3000 }, '1000');">3000</button></li>
         </ul>
     </div>
+    -->
     <div class="slide header slideFixed" id="title">
         <div>
             <h3>PREVIOUS PROJECTS</h3>
@@ -181,3 +178,36 @@
         </div>
     </div>
 </div>
+<script>
+//BACK TO TOP BUTTON LINK ANIMATION
+$('.mainNavigationSection div.ui-state-default').on({
+	mouseenter: function () {
+		$(".mainNavigationSection span.back-to-top").animate({color:'#9fda58'},500);
+	},
+	mouseleave: function () {
+		$(".mainNavigationSection span.back-to-top").animate({color:'#b8ec79'},500);
+	} 
+});
+
+//PROJECT PAGE COLOR HOVER ANIMATOR
+$('.mainNavigationSectionProjects a.linkColorChange').on({
+	mouseenter: function () {
+		$(this).animate({color:'#b8ec79'},500);
+	},
+	mouseleave: function () {
+		$(this).animate({color:'#9fda58'},500);
+	} 
+});
+$('.projectsIndexContainer a').on({
+	mouseenter: function () {
+		$(this).animate({color:'#b8ec79'},500);
+	},
+	mouseleave: function () {
+		$(this).animate({color:'#9fda58'},500);
+	} 
+});	
+
+/*NAVIAGATION DROPDOWN ALWAYS AT TOP FIXER*/
+$("body").on('scroll', fix_scroll).trigger('scroll');
+
+</script>

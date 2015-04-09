@@ -1,8 +1,3 @@
-$(document).ready(function() { 
-	
-});
-
-
 /*FUNCTIONS*/
 //PROJECT PAGE SEARCH TAB ANIMATION
 function searchTabOpenClose(){
@@ -18,15 +13,15 @@ function searchTabOpenClose(){
 
 //PROJECT PAGE POSITION FIXED ELEMENTS WORKAROUND
 function fix_scroll() {
-	console.log("scroll event triggered");
+	//console.log("scroll event triggered");
 	var index = $("body").scrollTop();
 	var container = $("body").scrollTop();
-	console.log("container = " + container);
+	//console.log("container = " + container);
 	var halfWidth = $(window).width() / 2;
 	halfWidth = halfWidth - 55;
-	console.log("halfWidth = " + halfWidth);
+	//console.log("halfWidth = " + halfWidth);
 	index = index + 50;
-	console.log("index = " + index);
+	//console.log("index = " + index);
 	var fixedIndex = $('.projectsIndexTab');
 	var fixedMenu = $('.projectsIndexContainer');
 	var fixedButton = $('.projectBackToTopButton');

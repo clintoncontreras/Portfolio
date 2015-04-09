@@ -37,7 +37,18 @@
                 <p>References</p>
                 <p>Find out what Clinton's co-workers and supervisors think about him.</p>
             </div>
-            <div class="ui-state-default ui-corner-all"><a href="#headerSection"><span class="back-to-top">Back to Top</span></a></div>
+            <!--<div class="ui-state-default ui-corner-all"><a $("body").animate({scrollTop: 0, 500);><span class="back-to-top">Back to Top</span></a></div>-->
         </div>
     </div>
 </div>
+<script>
+//BACK TO TOP BUTTON LINK ANIMATION
+$('.mainNavigationSection div.ui-state-default').on({
+	mouseenter: function () {
+		$(".mainNavigationSection span.back-to-top").animate({color:'#9fda58'},500);
+	},
+	mouseleave: function () {
+		$(".mainNavigationSection span.back-to-top").animate({color:'#b8ec79'},500);
+	} 
+});
+</script>

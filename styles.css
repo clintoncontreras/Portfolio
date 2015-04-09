@@ -241,6 +241,18 @@ fullWidth{
 	color:#b8ec79;
 }
 
+.BackToTopButton{
+	width: 150px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+	transform: none;
+	cursor:pointer;
+	margin: -45px auto 20px;
+}
+
 
 /*HOMEPAGE*/
 .featuredSection{
@@ -1192,8 +1204,6 @@ fullWidth{
 	height: 320px;
 	margin-left:10px;
 }
-.mainNavigationSection div.responsiveContainer{
-}
 .navigationTab p:last-of-type{
 	display:block;
 }
@@ -1254,23 +1264,17 @@ fullWidth{
 	width: 310px;
 }
 /*HEADER*/
-.mainNavigationSection div.responsiveContainer{
-	width:590px;
-}
-.headerSection{
-	height:80px;
-}
 .headerTopNavSection{
-	height: 80px;
-	width:430px;
+	height: 160px;
+	width:100%;
 }
 .headerTopNavSection ul li{
 	margin-right: 0;
 }
 .headerTopNavSection ul li a{
-    font-size: 12px;
+    font-size: 14px;
     height: 16px;
-    padding: 33px 7px 27px;
+    padding: 35px 7px 32px;
 }
 .headerTopNavSection ul li:last-child{
 	margin-right: 14px;
@@ -1280,7 +1284,6 @@ fullWidth{
     padding-right: 5px;
 }
 .headerIconBackgroundCont{
-	display:none;
 }
 .headerHomeLinkSection h1{
 	font-size: 0.8em;
@@ -1289,13 +1292,18 @@ fullWidth{
 	font-size: 0.8em;
 }
 .headerHomeLinkSection{
-	width: 160px;
-	margin-left:10px;
+	margin-left: 10px;
+    margin-top: 0;
+    width: 100%;
 }
 /*FOOTER*/
 /*HOMEPAGE*/
 .navigationTab{
-	width:570px;
+	width:470px;
+}
+.navigationTab p{
+	margin-left:5px;
+	margin-right:5px;
 }
 /*HISTORY*/
 .mainNavigationSectionHistory{
@@ -1356,6 +1364,9 @@ fullWidth{
 }
 .headerHomeLinkSection{
 	width: 210px;
+}
+.headerSection{
+	height:80px;
 }
 /*FOOTER*/
 .footerLeftSection{

@@ -1,5 +1,6 @@
 <div class="footerSection">
     <div class="responsiveContainer">
+        <div class="ui-state-default ui-corner-all BackToTopButton" style="transform:none;"><span class="back-to-top" onClick="$('body').animate({ scrollTop: 0 }, '1000');">Back to Top</span></div>
         <div class="footerLeftSection">
             <div>
                 <img />
@@ -31,7 +32,34 @@
         </div>
         <div class="footerCreditsSection">
             <p>Powered by:</p><img src="../images/footer/AngularJS.png" />
-            <p>Version 0.12</p>
+            <!--<p>Version 0.34</p>-->
         </div>
     </div>
 </div>
+<script>
+//FOOTER LINK TEXT COLOR ANIMATION
+$('.footerRightSection a').on({
+	mouseenter: function () {
+		$(this).animate({color:'#b8ec79'},500);
+	},
+	mouseleave: function () {
+		$(this).animate({color:'#FFFFFF'},500);
+	} 
+});
+$('.footerCenterSection a').on({
+	mouseenter: function () {
+		$(this).animate({color:'#9fda58'},500);
+	},
+	mouseleave: function () {
+		$(this).animate({color:'#b8ec79'},500);
+	} 
+});
+$('.footerCreditsSection a').on({
+	mouseenter: function () {
+		$(this).animate({color:'#9fda58'},500);
+	},
+	mouseleave: function () {
+		$(this).animate({color:'#b8ec79'},500);
+	} 
+});
+</script>
